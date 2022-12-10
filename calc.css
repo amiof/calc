@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(70, 70, 70, 0.921);
+   
+}
+.display {
+    border-bottom: 1px solid black;
+    height: 20%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+}
+.display p {
+    font-size: 3rem;
+    color: white;
+    margin-left: 30px;
+}
+.calc {
+    /* border: 1px solid black; */
+    border-radius: 30px;
+    width: 400px;
+    height: 700px;
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.574), -5px -2px 15px rgba(245, 245, 245, 0.283);
+    background-color: #A5A5A5;
+}
+.bouttones{
+    display: grid;
+    /* border: 1px solid red; */
+    height: 80%;
+    
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+.button p {
+    text-align: center;
+    color: white;
+    
+}
+.button{
+    background-color: aliceblue;
+    padding: 30px;
+    margin: 10px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    font-size: 22px;
+    box-shadow: 3px 3px 5px black ,
+    -2px -2px silver
+    
+}
+.number {
+    background-color: #333333;
+}
+.alin {
+    background-color: #FFA45C;
+}
+.item {
+    background-color: #A5A5A5;
+}
+.ziro {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border-radius: 40px;
+}
