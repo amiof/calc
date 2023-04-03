@@ -16,6 +16,12 @@ calc
       src="https://img.shields.io/badge/CSS-blue.svg?&style=for-the-badge&logo=CSS3&logoColor=white"
     />
   </a> 
+    <a href="https://react.dev/">
+    <img
+      alt="js"
+      src="https://img.shields.io/badge/javascript-green.svg?&style=for-the-badge&logo=javaScript&logoColor=white"
+    />
+  </a> 
   </a>
  
 </p>
